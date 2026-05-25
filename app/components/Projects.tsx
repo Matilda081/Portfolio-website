@@ -11,7 +11,7 @@ export default function Projects() {
       description:
         "A modern restaurant website with beautiful layout, menu display and responsive design.",
       live: "https://matilda081.github.io/Restaurant-website/Resturant-website.html",
-        
+      github: "https://github.com/Matilda081/Restaurant-website.git",  
     },
     {
       title: "Static Business Website",
@@ -20,6 +20,7 @@ export default function Projects() {
       description:
         "A clean and responsive static website built for business presentation.",
       live: "https://next-js-simplestatic-website.vercel.app", 
+      github: "https://github.com/Matilda081/next.js-simplestatic-website.git",
        
     },
     {
@@ -28,7 +29,8 @@ export default function Projects() {
       video: "/videosjc/todo-app.mp4",
       description:
         "A functional todo application with add, delete and manage tasks features.",
-      live: "https://matilda081.github.io/Todo-App/todo-project.html",  
+      live: "https://matilda081.github.io/Todo-App/todo-project.html",
+      github: "https://github.com/Matilda081/Todo-App.git",  
        
     },
   ];
@@ -93,7 +95,14 @@ export default function Projects() {
                 Live Demo
               </a>
 
-              
+                {/* GITHUB */}
+              <a
+                 href={project.github}
+                 target="_blank"
+                 className="border border-cyan-400 text-cyan-400 px-4 py-2 rounded-full text-sm font-semibold hover:bg-cyan-400 hover:text-black transition"
+                >
+                GitHub
+              </a>
 
                </div>
               </div>
